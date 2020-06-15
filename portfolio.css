@@ -13,7 +13,7 @@
 .container{
     position: absolute;
     margin: 20px;
-    margin-left:5px;
+    margin-left:1em;
     width: auto;
     font-size:15px;
 }
@@ -38,6 +38,7 @@ body{
 h1{
     
 }
+
 .container2 {
     margin: auto;
     width: auto;
@@ -73,4 +74,165 @@ h1{
 .line-2 {
     color:#316960;
     border-top: 2px solid
+}
+
+.about-header{
+    text-transform: uppercase;
+    font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+}
+.container3 {
+    margin-bottom: 1em;
+    padding: 1em;
+    font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+}
+
+#headshot{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 0.7em;
+    box-shadow: 2px 2px 2px black;
+    float:center;
+}
+
+.skills-header {
+    text-transform: uppercase;
+    font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+    padding-top: 0.3em;
+    text-align:center;
+}
+
+/* .container4 {
+    background-color: #9cd9cf;
+    background-repeat: no-repeat;
+    display: flexbox;
+    flex-wrap: wrap;
+    width: auto;
+    margin: auto;
+    /* padding-left: 7em;
+    padding-top: 1em;
+    padding-bottom:1em; */
+    /*text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+} */
+
+fieldset {
+    width: auto;
+    font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+#email{
+    padding-top:0.5em;
+}
+
+#message-1{
+    padding-top:0.5em;
+}
+
+#message{
+    width:100%;
+}
+
+#submit-button{
+    margin-top:-1em;
+    margin-bottom: 2em;
+    position: absolute;
+    width: auto;
+    font-size:15px;
+    font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    border: solid 2px #316960;
+    border-radius:3px;
+}
+
+#submit-button:hover {
+    color:#316960;
+}
+
+#contact {
+    font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    color: #45524f;
+}
+
+/* #hello-pic {
+    width: 10em;
+    margin: auto;
+} */
+
+.vl{
+    color:#316960;
+    border-top: 2px solid
+}
+
+.vl-2{
+    color:#316960;
+    border-top: 1px dotted
+}
+
+#hello {
+    width: 10em;
+    float: center;
+    height: 30em;
+    width: 20em;
+    border-style: dotted 2px;
+    border-radius:3em;
+}
+
+/* #resume {
+    /* display:flex;
+    flex: wrap; */
+    /*background-color:white;
+    position: absolute;
+    margin-left:22em;
+    margin-top: -22em;
+    font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    border: solid 2px #316960;
+    border-radius:3px;
+    padding: 10px;
+} */
+
+/* #resume:hover {
+    color:#316960;
+} */
+
+.container4 {
+    background-color: #C4EAE6;
+    background-repeat: no-repeat;
+    /* display: flexbox;
+    flex-wrap: wrap; */
+    width: auto;
+    height: auto;
+    margin: auto;
+    /* padding-left: 7em;
+    padding-top: 1em;
+    padding-bottom:1em; */
+    /* text-overflow: ellipsis;
+    overflow: hidden; */
+    font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+    text-transform: uppercase;
+}
+
+#contact {
+    margin-top: 1em;
+    display: block;
+}
+
+#quote {
+    margin-right:1em;
+    margin-left: 1em;
+}
+
+.footer {
+    background-image:url(https://images.unsplash.com/photo-1550895030-823330fc2551?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60);
+    font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    height:3em;
+    padding-top:1em;
 }
