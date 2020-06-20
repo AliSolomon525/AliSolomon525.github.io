@@ -1,13 +1,12 @@
 .bg-img{
     background-image:url(https://images.unsplash.com/photo-1550895030-823330fc2551?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60);
-    min-height: 235px;
+    min-height: 215px;
     width: auto;
 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity:0.75;
 }
 
 .container{
@@ -27,7 +26,7 @@
 .navbar {
     font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
     text-transform: uppercase;
-    border: solid 2px #316960;
+    border-bottom: solid 2px #316960;
     border-radius:3px;
 }
 
@@ -42,7 +41,7 @@ h1{
 .container2 {
     margin: auto;
     width: auto;
-    padding-top:90px;
+    padding-top:75px;
     text-align:center;
     font-size:15px;
     text-transform: uppercase;
@@ -56,7 +55,7 @@ h1{
 .h6-container{
     display: flexbox;
     flex-wrap: wrap;
-    color: rgb(77, 77, 77);
+    color: black;
     background-color:white;
     width:auto;
     border: dotted lightgrey 1px;
@@ -79,20 +78,47 @@ h1{
 .about-header{
     text-transform: uppercase;
     font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+    color:#316960;
+    margin-bottom: 0.5em;
+    background-color:#edf4f1;
+    width: 100%;
+    text-align: center;
 }
-.container3 {
-    margin-bottom: 1em;
+.about-container {
+    /* margin-bottom: 0.5em; */
     padding: 1em;
     font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
 }
 
 #headshot{
-    height: 300px;
-    width: 200px;
+    height: 315px;
+    width: 250px;
     object-fit: cover;
-    border-radius: 0.7em;
+    border-radius: 1em;
     box-shadow: 2px 2px 2px black;
     float:center;
+    margin-bottom: 1em;
+}
+
+.teaser {
+    margin: auto;
+    text-transform: uppercase;
+    font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+    background-color:#edf4f1;
+    text-align:center;
+}
+
+.blog {
+    color: #316960;
+}
+
+.blog:hover{
+    color: rgb(77, 77, 77);
+}
+
+.skills {
+    margin-left:10px;
+    text-align:center;
 }
 
 .skills-header {
@@ -100,6 +126,21 @@ h1{
     font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
     padding-top: 0.3em;
     text-align:center;
+}
+
+.table-container {
+    width:auto;
+}
+
+table {
+    text-transform: uppercase;
+    font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+    width:80%;
+}
+
+.table-header{
+    background-color: #d5e3df;
+    width: auto;
 }
 
 /* .container4 {
@@ -117,6 +158,77 @@ h1{
     font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
 } */
 
+.projects-header {
+    background-color:#d5e3df;
+    background-size: cover;
+    text-transform: uppercase;
+    font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+    color: black;
+    padding-top: 0.3em;
+    text-align:center;
+    padding-bottom: 0.3em;
+}
+
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:3em;
+    text-align:center;
+    background-color:#edf4f1;
+}
+
+.puppy {
+    display: block;
+    width: 20em;
+    height: 10em;
+    border: 0.5px solid gray;
+}
+
+/* .puppy-figure:hover img{
+    filter:brightness(50%);
+} */
+
+.overlay {
+    font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    text-align:center;
+    /* color: #fff!important; */
+    top: 0;
+    bottom: 0;
+    left: 0.9em;
+    right: 0;
+    height: 10em;
+    width: 20em;
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s ease;
+    /* transform: translate(-50%, -50%); */
+    background-color: black;
+    padding-left:10px;
+    padding-top:4em;
+    font-size:25px bold;
+    /* width:20em;
+    height:10em; */
+}
+
+.puppy-figure:hover .overlay{
+    opacity: 0.5;
+}
+
+.caption {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 fieldset {
     width: auto;
     font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
@@ -124,6 +236,7 @@ fieldset {
     margin-left: 1em;
     margin-bottom: 1em;
     margin-right: 1em;
+    color:#316960;
 }
 
 #email{
@@ -134,8 +247,21 @@ fieldset {
     padding-top:0.5em;
 }
 
+#email-address{
+    background-color:#d5e3df;
+}
+
+#full-name{
+    background-color:#d5e3df;
+}
+
 #message{
     width:100%;
+    background-color:#edf4f1;
+    color: black;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
 }
 
 #submit-button{
@@ -157,7 +283,7 @@ fieldset {
 #contact {
     font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
     text-transform: uppercase;
-    color: #45524f;
+    color: #316960;
 }
 
 /* #hello-pic {
@@ -167,13 +293,19 @@ fieldset {
 
 .vl{
     color:#316960;
-    border-top: 2px solid
+    border-top: 2px solid;
+    width:100%;
 }
 
 .vl-2{
     color:#316960;
-    border-top: 1px dotted
+    border-top: 1px dotted;
 }
+
+/* .vl-3{
+    color:#316960;
+    border-top: 3px solid;
+} */
 
 #hello {
     width: 10em;
@@ -202,8 +334,23 @@ fieldset {
     color:#316960;
 } */
 
-.container4 {
-    background-color: #C4EAE6;
+#quote {
+    margin-top:5em;
+}
+
+.skills {
+    text-align:center;
+}
+
+.table {
+    text-align:center;
+    margin:auto;
+    padding-right:2em;
+}
+
+.contact-container {
+    /* background-color: #e6e6e6;
+    background: linear-gradient(#aba9a9, #ffffff); */
     background-repeat: no-repeat;
     /* display: flexbox;
     flex-wrap: wrap; */
@@ -230,9 +377,12 @@ fieldset {
 }
 
 .footer {
-    background-image:url(https://images.unsplash.com/photo-1550895030-823330fc2551?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60);
+    background-color:#d5e3df;
+    background-size: cover;
     font-family: "Libre Franklin","Helvetica Neue",helvetica,arial,sans-serif;
     text-transform: uppercase;
     height:3em;
     padding-top:1em;
+    padding-left:1em;
+    width:auto;
 }
