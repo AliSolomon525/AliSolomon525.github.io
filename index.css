@@ -314,6 +314,7 @@ fieldset {
     width: 20em;
     border-style: dotted 2px;
     border-radius:3em;
+    padding-bottom: 1em;
 }
 
 /* #resume {
@@ -385,4 +386,12 @@ fieldset {
     padding-top:1em;
     padding-left:1em;
     width:auto;
+}
+
+.sidney {
+    color: #316960;
+}
+
+.sidney:hover{
+    color: rgb(77, 77, 77);
 }
