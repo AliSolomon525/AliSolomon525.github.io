@@ -179,9 +179,12 @@ table {
 
 .puppy {
   display: block;
-  width: 20em;
+  width: auto;
   height: 10em;
   border: 0.5px solid gray;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
 }
 
 /* .puppy-figure:hover img{
@@ -232,6 +235,12 @@ table {
   color: black;
   font-size: 16px;
   text-transform: uppercase;
+}
+
+.caption3 {
+  color: black;
+  font-size: 12px;
+  font-style: italic;
 }
 
 fieldset {
